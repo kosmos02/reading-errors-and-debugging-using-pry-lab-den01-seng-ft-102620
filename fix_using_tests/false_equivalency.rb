@@ -19,7 +19,14 @@ def selection(num)
     
      "HAM HAM HAM IN MY TUMMY"
   end
-  
+  1) false_equivalency `selection` returns the correct string based on user input
+     Failure/Error: expect(selection(2)).to eq("HAM HAM HAM IN MY TUMMY")
+
+       expected: "HAM HAM HAM IN MY TUMMY"
+            got: "YUM YUM MUNCH MUNCH MUNCH"
+
+       (compared using ==)
+     # ./spec/false_equivalency_spec.rb:6:in `block (2 levels) in <top (required)>'
 end
 
 def runner
