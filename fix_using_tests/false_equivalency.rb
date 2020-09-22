@@ -16,10 +16,10 @@ def selection(num)
     binding.pry
      "YUM YUM MUNCH MUNCH MUNCH"
   elsif num = 2
-    binding.pry
-    put 'hello'
+    
      "HAM HAM HAM IN MY TUMMY"
   end
+  
 end
 
 def runner
