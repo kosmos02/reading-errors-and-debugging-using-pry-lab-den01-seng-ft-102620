@@ -19,8 +19,7 @@ def selection(num)
     
      "HAM HAM HAM IN MY TUMMY"
   end
-  binding.pry
-  puts 'hello'
+ 
 end
 
 def runner
